@@ -11,7 +11,7 @@ h1{
     color:palevioletred
 
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -39,4 +39,15 @@ section{
     background-image: url(images/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: right;
+}
+.live{
+    color: darkgoldenrod;
+}
+.lost{
+    box-shadow: 10px 5px #add7db;
+    box-sizing: content-box;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
